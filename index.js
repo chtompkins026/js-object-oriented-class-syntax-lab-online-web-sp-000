@@ -26,7 +26,7 @@ class BoardMember {
 }
 
 class Ceo extends BoardMember {
-  teachMath(){
+  hireEmployee(){
     return `My name is ${this.name} and 1 + 1 is 2.`
   }
 }
