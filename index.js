@@ -25,7 +25,7 @@ class BoardMember {
     }
 }
 
-class CEO extends User {
+class Ceo extends BoardMember {
   teachMath(){
     return `My name is ${this.name} and 1 + 1 is 2.`
   }
